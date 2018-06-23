@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        tools:context="com.example.komal.justjava.MainActivity">
+
+        <TextView
+            style="@style/CustomText"
+            android:text="@string/q1" />
+
+        <EditText
+            android:id="@+id/q1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/ans" />
+
+
+        <TextView
+            style="@style/CustomText"
+            android:text="@string/q2" />
+
+        <EditText
+            android:id="@+id/q2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/ans" />
+
+        <TextView
+            style="@style/CustomText"
+            android:text="@string/q3" />
+
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <RadioButton
+                android:id="@+id/q3_opt1"
+                style="@style/CustomRadio1"
+                android:text="@string/q3_opt1" />
+
+            <RadioButton
+                android:id="@+id/q3_opt2"
+                style="@style/CustomRadio1"
+                android:text="@string/q3_opt2" />
+
+            <RadioButton
+                android:id="@+id/q3_opt3"
+                style="@style/CustomRadio1"
+                android:text="@string/q3_opt3" />
+
+            <RadioButton
+                android:id="@+id/q3_opt4"
+                style="@style/CustomRadio1"
+                android:text="@string/q3_opt4" />
+
+        </RadioGroup>
+
+
+        <TextView
+            style="@style/CustomText"
+            android:text="@string/q4" />
+
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/q4_opt1"
+                style="@style/CustomRadio2"
+                android:text="@string/q4_opt1" />
+
+            <RadioButton
+                android:id="@+id/q4_opt2"
+                style="@style/CustomRadio2"
+                android:text="@string/q4_opt2" />
+
+            <RadioButton
+                android:id="@+id/q4_opt3"
+                style="@style/CustomRadio2"
+                android:text="@string/q4_opt3" />
+
+            <RadioButton
+                android:id="@+id/q4_opt4"
+                style="@style/CustomRadio2"
+                android:text="@string/q4_opt4" />
+        </RadioGroup>
+
+        <TextView
+            style="@style/CustomText"
+            android:text="@string/q5"
+            />
+
+        <CheckBox
+            android:id="@+id/q5_opt1"
+            style="@style/CustomCheckBox"
+            android:text="@string/q5_opt1" />
+
+        <CheckBox
+            android:id="@+id/q5_opt2"
+            style="@style/CustomCheckBox"
+            android:text="@string/q5_opt2" />
+
+        <CheckBox
+            android:id="@+id/q5_opt3"
+            style="@style/CustomCheckBox"
+            android:text="@string/q5_opt3" />
+
+        <CheckBox
+            android:id="@+id/q5_opt4"
+            style="@style/CustomCheckBox"
+            android:text="@string/q5_opt4" />
+
+        <TextView
+            style="@style/CustomText"
+            android:text="@string/q6" />
+
+        <CheckBox
+            android:id="@+id/q6_opt1"
+            style="@style/CustomCheckBox2"
+            android:text="@string/q6_opt1" />
+
+        <CheckBox
+            android:id="@+id/q6_opt2"
+            style="@style/CustomCheckBox2"
+            android:text="@string/q6_opt2" />
+
+        <CheckBox
+            android:id="@+id/q6_opt3"
+            style="@style/CustomCheckBox2"
+            android:text="@string/q6_opt3" />
+
+        <CheckBox
+            android:id="@+id/q6_opt4"
+            style="@style/CustomCheckBox2"
+            android:text="@string/q6_opt4" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:onClick="submitTest1"
+            android:text="@string/submit1" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:onClick="submitTest2"
+            android:text="@string/submit2" />
+
+        <TextView
+            android:id="@+id/display"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="15dp"
+            android:text="@string/text"
+            android:textColor="@android:color/black"
+            android:textSize="15sp" />
+
+
+    </LinearLayout>
+</ScrollView>

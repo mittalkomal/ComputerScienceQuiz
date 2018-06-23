@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Computer Science Quiz</string>
+
+    <string name="q1"> "1. 'Do no evil' is tag line of ......?"</string>
+
+    <string name="q2">"2. Which IT company's nickname is ' The Big Blue '?"</string>
+
+    <string name="ans">"Answer"</string>
+
+    <string name="q3">"3.  Who was the father of computer?(Single correct)"</string>
+    <string name="q3_opt1">" Dennis Ritchie"</string>
+    <string name="q3_opt2">"Charlie Babbage"</string>
+    <string name="q3_opt3">"Charles Richard"</string>
+    <string name="q3_opt4">" Ken Thompson"</string>
+
+    <string name="q4">"4. Why OMR is used?(Single Correct)"</string>
+    <string name="q4_opt1">"  Scan mails"</string>
+    <string name="q4_opt2">" Scan documents"</string>
+    <string name="q4_opt3">" Scan images"</string>
+    <string name="q4_opt4">" Scan answer sheets"</string>
+
+    <string name="q5">"5. Which of the following are web browsers?(Multiple correct) "</string>
+    <string name="q5_opt1">"WWW"</string>
+    <string name="q5_opt2">"MOSIAC"</string>
+    <string name="q5_opt3">"Facebook"</string>
+    <string name="q5_opt4">"Netscape"</string>
+
+    <string name="q6">"6. Which of the following is not programming language?(Multiple correct)"</string>
+    <string name="q6_opt1">"HTTP"</string>
+    <string name="q6_opt2">"FTP"</string>
+    <string name="q6_opt3">"HTML"</string>
+    <string name="q6_opt4">"HPML"</string>
+
+    <string name="submit1">"Grading"</string>
+    <string name="submit2">"Submit"</string>
+    <string name="text">"Your score wil appear here(Each ques carries 5 marks)"</string>
+</resources>
+
+
+
+
